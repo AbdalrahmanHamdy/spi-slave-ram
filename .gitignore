@@ -1,0 +1,52 @@
+# ===== Vivado =====
+*.jou
+*.log
+*.str
+*.zip
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/sources_1/bd/
+*.gen/
+*.xpr
+vivado*.backup.jou
+vivado*.backup.log
+webtalk*.jou
+webtalk*.log
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+fsm_encoding.os
+.Xil
+NA
+*_bd*.svg
+
+# Vivado auto-generated project files (keep only source .v/.xdc, not the .xpr project cache)
+*.xml.bak
+
+# ===== QuestaSim / ModelSim =====
+work/
+work.lib*
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+.vlogansetuprc
+csrc/
+*.vstf
+*.ucdb
+
+# ===== Bitstream & generated netlists (large binaries — track via Releases instead) =====
+*.bit
+*.bin
+*.mcs
+*.ltx
+
+# ===== OS / editor noise =====
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
